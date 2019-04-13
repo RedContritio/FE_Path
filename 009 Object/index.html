@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<title> Object Method </title>
+	<meta charset="UTF-8" />
+	<script src="object.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	
+	<div id="student_list">
+		<!-- 这里的设置交给 adjustList 函数来实现 -->
+	</div>
+	<br/><br/>
+	<hr/>
+	<div>
+		<table border="1" id="input_table">
+			<tr>
+			<td>name</td><td><input id="student_name" type="text"/></td>
+			</tr><tr>
+			<td>id</td><td><input id="student_id" type="text"/></td>
+			</tr><tr>
+			<td colspan="2"><button onclick="addNewStudent()"> Add </button></td>
+			</tr>
+		</table>
+		<!-- if input <button onclick='document.getElementById("input_table").style.display="none";'>hack</button> 
+		or <button onclick='document.getElementById("student_list").style.display="none";'>hackmyself</button> , it will be fun-->
+	</div>
+	<script> adjustList(); </script>
+</body>
+</html>

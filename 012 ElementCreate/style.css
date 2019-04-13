@@ -1,0 +1,13 @@
+div.修改框
+{
+	border:1px;
+	margin:0.5em;
+	float:left;
+	background-color:#F8F8FF;
+	color:#000;
+}
+
+input
+{
+	background-color:transparent;
+}

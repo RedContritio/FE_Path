@@ -1,0 +1,11 @@
+.CorrectStyle
+{
+	background-color:default;
+	font-size:0.5em;
+}
+
+.IncorrectStyle
+{
+	background-color:red;
+	color:white;
+}

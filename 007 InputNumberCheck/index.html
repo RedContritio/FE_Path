@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8"/>
+	<title> Input Number Check</title>
+	<script src="check.js"></script>
+</head>
+<body>
+	<div>
+		<h2> Number Check By Javascripts </h2>
+		<input id="inputnumber" />
+		<button type="button" onclick="check()"> check </button>
+		<p id="check_res"> </p>
+	</div>
+	<br/><hr/>
+	<div>
+		<h2> However, use input-type is a good way. </h2>
+			<form>
+				<input type="text" name="fname" required="required"/>
+				<input type="submit" value="蹄胶"/>
+			</form>
+	</div>
+	<br/><hr/>
+	<div>
+		<h2> I can use another way, too.</h2>
+		<form name="myform" onsubmit="return validateForm();" method="post">
+			<input type="text" name="awtbox"/>
+			<input type="submit" value="SUBMIT"/>
+		</form>
+	</div>
+</body>
+</html>

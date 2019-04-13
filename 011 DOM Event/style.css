@@ -1,0 +1,13 @@
+div#一个测试块
+{
+	height: 10em;
+	background-color: #F0FFFB;
+	padding: 1em;
+	margin: 0.5em;
+}
+
+div#另一个测试块
+{
+	height: 5em;
+	background-color: #F0F7FF;
+}
